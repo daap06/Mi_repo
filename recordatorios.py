@@ -16,7 +16,10 @@ recordatorios.extend([['2021-12-24', '22:00', 'Cena de Navidad'],['2021-12-31', 
 #Ordeno la lista de eventos
 recordatorios.sort()
 
+#Lista con resultado.
 print(recordatorios)
 
+print(f"\n"
+      f"**********Recordatorios***********\n")
 for recordatorio in recordatorios:
     print(recordatorio)
