@@ -10,7 +10,7 @@ try:
         tex_separado = texto.split(" ")
 
         palabras_unicas = set(tex_separado)
-        print(f"El número de palabras distintas es:",len(caracteres))
+        print(f"El número de caracteres distintos es:",len(caracteres))
         print(f"El número de palabras distintas es:",len(palabras_unicas))
     except:
         raise ValueError("El formato de alguno de los parámetros ingresados no es valido. por favor verifique.")
